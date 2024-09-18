@@ -33,19 +33,21 @@
                     <!-- user action btn end -->
                     <div class="divider"></div>
                     <!-- Add money failed start  -->
-                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
                             <div class="form-control">
                                 <label class="label">
                                     <span class="label-text">Add Money</span>
                                 </label>
-                                <input id="money-amount-input" type="number" placeholder="Amount" class="input input-bordered" required />
+                                <input id="money-amount-input" type="number" placeholder="Amount"
+                                    class="input input-bordered" required />
                             </div>
                             <div class="form-control">
                                 <label class="label">
                                     <span class="label-text">Pin</span>
                                 </label>
-                                <input id="pin-number-input" type="password" placeholder="Pin" class="input input-bordered" required />
+                                <input id="pin-number-input" type="password" placeholder="Pin"
+                                    class="input input-bordered" required />
                             </div>
                             <div class="form-control mt-6">
                                 <button id="add-money-btn" class="btn btn-primary">Add Money</button>
@@ -53,6 +55,30 @@
                         </form>
                     </div>
                     <!-- Add money failed start  -->
+
+                    <!-- cash out start -->
+                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Cash Out Money</span>
+                                </label>
+                                <input id="cash-out-amount-input" type="number" placeholder="Amount"
+                                    class="input input-bordered" required />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Pin</span>
+                                </label>
+                                <input id="cash-out-pin-number-input" type="password" placeholder="Pin"
+                                    class="input input-bordered" required />
+                            </div>
+                            <div class="form-control mt-6">
+                                <button id="cash-out-money-btn" class="btn btn-primary">Cash Out Money</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- cash out end -->
                 </div>
 
             </div>
